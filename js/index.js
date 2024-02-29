@@ -82,7 +82,8 @@ const showPhoneDetail = (phone) => {
 const handlerSearch = (isShowAll) => {
   toggleLoadingSpinner(true);
   const searchField = document.getElementById("search-field");
-  const searchText = searchField.value;
+  const searchText = searchField.value ;
+  
   // console.log(searchText)
   loadPhone(searchText, isShowAll);
 };
